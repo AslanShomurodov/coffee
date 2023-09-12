@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #212121;
+}
+body .wrapper-about {
+  width: 100%;
+  max-width: 1440px;
+  height: 3595px;
+  background: #fefcf7;
+}
+body .wrapper-about .header-about {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1279.9px;
+  padding-top: 50px;
+  padding-bottom: 49px;
+  background-color: transparent;
+  margin: 0 auto;
+}
+body .wrapper-about .header-about .header-a-menu-about {
+  width: 323px;
+  height: 15px;
+  background-color: transparent;
+  margin-top: 7.5px;
+}
+body .wrapper-about .header-about .header-a-menu-about ul {
+  display: flex;
+  -moz-column-gap: 33px;
+       column-gap: 33px;
+  margin-top: -3px;
+}
+body .wrapper-about .header-about .header-a-menu-about ul li {
+  list-style: none;
+}
+body .wrapper-about .header-about .header-a-menu-about ul li a {
+  text-decoration: none;
+  color: #83888f;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+  margin-left: -20px;
+}
+body .wrapper-about .about-img-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1279px;
+  margin: 0 auto;
+}
+body .wrapper-about .about-writing-p1 {
+  color: #fefcf7;
+  font-family: Fraunces 9pt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px; /* 120% */
+  margin-top: -400px;
+}/*# sourceMappingURL=about.css.map */
