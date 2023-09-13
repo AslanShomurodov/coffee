@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   display: flex;
   justify-content: center;
@@ -5,9 +10,11 @@ body {
 
   .wrapper-about {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1280px;
     height: 3595px;
     background: #fefcf7;
+
+
     .header-about {
       display: flex;
       justify-content: space-between;
@@ -16,17 +23,21 @@ body {
       padding-bottom: 49px;
       background-color: transparent;
       margin: 0 auto;
+
       .header-a-menu-about {
         width: 323px;
         height: 15px;
         background-color: transparent;
         margin-top: 7.5px;
+
         ul {
           display: flex;
           column-gap: 33px;
           margin-top: -3px;
+
           li {
             list-style: none;
+
             a {
               text-decoration: none;
               color: #83888f;
@@ -34,7 +45,8 @@ body {
               font-size: 12px;
               font-style: normal;
               font-weight: 700;
-              line-height: 15px; /* 125% */
+              line-height: 15px;
+              /* 125% */
               letter-spacing: 0.923px;
               text-transform: uppercase;
               margin-left: -20px;
@@ -44,13 +56,28 @@ body {
       }
     }
 
-    .about-img-menu {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      max-width: 1279px;
-      margin: 0 auto;
+    .header-img-menu {
+      max-width: 1280px;
+      height: 450px;
+      background-color: rgb(75, 116, 116);
+      background-image: url(../img/about-img-menu.svg);
+
+      .header-img-menu-p {
+        width: 445px;
+        color: #FEFCF7;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+        padding-top: 209px;
+        margin-left: 85px;
+
+      }
     }
+
+
     .about-writing-p1 {
 
       color: #fefcf7;
@@ -58,18 +85,18 @@ body {
       font-size: 40px;
       font-style: normal;
       font-weight: 900;
-      line-height: 48px; /* 120% */
-      margin-top: -400px;
+      line-height: 48px;
+      /* 120% */
+      margin-top: -310px;
+      margin-left: 85px;
     }
-    // .about-writing-menu {
-    //   position: relative;
-    //   display: flex;
-    //   justify-content: end;
-    //   width: 100%;
-    //   max-width: 445px;
-    //   background-color: aqua;
-    //   top: -400px;
 
+    .section-menu {
+      max-width: 1110px;
+      height: 520px;
+      background-color: #887c7c ;
+      // margin-top: 268px;
+      // margin: 0 auto;
     }
   }
-// }
+}

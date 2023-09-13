@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -5,7 +11,7 @@ body {
 }
 body .wrapper-about {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1280px;
   height: 3595px;
   background: #fefcf7;
 }
@@ -40,17 +46,29 @@ body .wrapper-about .header-about .header-a-menu-about ul li a {
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
-  line-height: 15px; /* 125% */
+  line-height: 15px;
+  /* 125% */
   letter-spacing: 0.923px;
   text-transform: uppercase;
   margin-left: -20px;
 }
-body .wrapper-about .about-img-menu {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 1279px;
-  margin: 0 auto;
+body .wrapper-about .header-img-menu {
+  max-width: 1280px;
+  height: 450px;
+  background-color: rgb(75, 116, 116);
+  background-image: url(../img/about-img-menu.svg);
+}
+body .wrapper-about .header-img-menu .header-img-menu-p {
+  width: 445px;
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+  padding-top: 209px;
+  margin-left: 85px;
 }
 body .wrapper-about .about-writing-p1 {
   color: #fefcf7;
@@ -58,6 +76,13 @@ body .wrapper-about .about-writing-p1 {
   font-size: 40px;
   font-style: normal;
   font-weight: 900;
-  line-height: 48px; /* 120% */
-  margin-top: -400px;
+  line-height: 48px;
+  /* 120% */
+  margin-top: -310px;
+  margin-left: 85px;
+}
+body .wrapper-about .section-menu {
+  max-width: 1110px;
+  height: 520px;
+  background-color: #887c7c;
 }/*# sourceMappingURL=about.css.map */
