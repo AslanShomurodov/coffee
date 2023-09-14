@@ -1,8 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -61,8 +62,23 @@ body {
       height: 450px;
       background-color: rgb(75, 116, 116);
       background-image: url(../img/about-img-menu.svg);
+      // margin-top: 300px;
 
-      .header-img-menu-p {
+      .header-img-menu-p1 {
+        width: 445px;
+        color: #FEFCF7;
+        font-family: Fraunces 9pt;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+        /* 120% */
+        padding-top: 170px;
+        margin-left: 85px;
+
+      }
+
+      .header-img-menu-p2 {
         width: 445px;
         color: #FEFCF7;
         font-family: Barlow;
@@ -71,32 +87,63 @@ body {
         font-weight: 400;
         line-height: 26px;
         /* 162.5% */
-        padding-top: 209px;
+        // margin-top: -310px;
         margin-left: 85px;
-
       }
     }
 
 
-    .about-writing-p1 {
 
-      color: #fefcf7;
-      font-family: Fraunces 9pt;
-      font-size: 40px;
-      font-style: normal;
-      font-weight: 900;
-      line-height: 48px;
-      /* 120% */
-      margin-top: -310px;
-      margin-left: 85px;
-    }
-
-    .section-menu {
-      max-width: 1110px;
+    .section {
+      display: flex;
+      justify-content: center;
+      max-width: 1280px;
       height: 520px;
-      background-color: #887c7c ;
-      // margin-top: 268px;
-      // margin: 0 auto;
+      background-color: transparent;
+
+      .about-section-menu {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1110px;
+        height: 520px;
+        background-color: transparent;
+        margin-top: 168px;
+
+        // margin: 0 auto;
+        // margin-left: 84px;
+        .about-section-menu-p-menu {
+          width: 100%;
+          max-width: 540px;
+          height: 340px;
+          background-color: transparent;
+          margin-top: 90px;
+
+          .about-section-menu-p1 {
+            color: #333D4B;
+            font-family: Fraunces 9pt;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 48px;
+            /* 120% */
+          }
+
+          .about-section-menu-p2 {
+            max-width: 540px;
+            color: #333D4B;
+            font-family: Barlow;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            /* 162.5% */
+            opacity: 0.8;
+            margin-top: 32px;
+          }
+        }
+      }
     }
+
   }
 }
