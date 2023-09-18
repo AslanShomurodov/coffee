@@ -1,0 +1,904 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #212121;
+    font-family: 'Fraunces', serif;
+
+    .contener-about {
+        display: flex;
+        justify-content: center;
+        max-width: 1440px;
+        width: 100%;
+        background: #FEFCF7;
+
+        .wrapper-about {
+            width: 100%;
+            max-width: 1280px;
+            // height: 2891px;
+            background: #fefcf7;
+
+
+            .header-about {
+                display: flex;
+                justify-content: space-between;
+                max-width: 1279.9px;
+                padding-top: 50px;
+                padding-bottom: 49px;
+                background-color: transparent;
+                margin: 0 auto;
+
+                .header-a-menu-about {
+                    width: 323px;
+                    height: 15px;
+                    background-color: transparent;
+                    margin-top: 7.5px;
+
+                    ul {
+                        display: flex;
+                        column-gap: 33px;
+                        margin-top: -3px;
+
+                        li {
+                            list-style: none;
+
+                            a {
+                                text-decoration: none;
+                                color: #83888f;
+                                font-family: Barlow;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 15px;
+                                /* 125% */
+                                letter-spacing: 0.923px;
+                                text-transform: uppercase;
+                                margin-left: -20px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .header-img-menu {
+                max-width: 1280px;
+                height: 450px;
+                background-color: rgb(75, 116, 116);
+                background-image: url(../img/subscribe-header-img.jpg);
+                // margin-top: 300px;
+
+                .header-img-menu-p1 {
+                    width: 445px;
+                    color: #FEFCF7;
+                    font-family: Fraunces 9pt;
+                    font-size: 72px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 72px;
+                    /* 100% */
+                    padding-top: 165px;
+                    margin-left: 85px;
+
+                }
+
+                .header-img-menu-p2 {
+                    width: 445px;
+                    color: #FEFCF7;
+                    font-family: Barlow;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                    opacity: 0.8;
+                    // margin-top: -310px;
+                    margin-left: 85px;
+                }
+            }
+
+            .bottom-sec {
+                margin: 0 auto;
+                max-width: 1280px;
+                height: 565px;
+                background: #2C343E;
+                margin-top: 200px;
+
+                .bottom-sec-p1 {
+                    width: 255px;
+                    color: #83888f;
+                    font-family: Fraunces 9pt;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 32px;
+                    /* 133.333% */
+                }
+
+                .botton-sec-wert-menu {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    max-width: 760px;
+                    height: 31px;
+                    background-color: transparent;
+                    top: 100px;
+
+                    .wert-menu-img-card3 {
+                        // margin-left: 200px;
+                        display: flex;
+                        justify-content: center;
+                        transform: translateX(667px);
+                    }
+
+                    .wert-menu-img-card2 {
+                        // margin-left: 200px;
+                        display: flex;
+                        justify-content: center;
+                        transform: translateX(320px);
+                    }
+
+                    .wert-menu-img {
+                        width: 100%;
+                        max-width: 760px;
+                        height: 1px;
+                        background-color: #fdd6ba;
+                        margin-left: -60px;
+                    }
+                }
+            }
+
+            .wert-menu-cards {
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                width: 100%;
+                max-width: 1045px;
+                height: 355px;
+                background-color: transparent;
+                top: 177px;
+                margin: 0 auto;
+
+                .wert-menu-card1 {
+                    max-width: 285px;
+                    height: 355px;
+                    background-color: transparent;
+
+                    .wert-menu-card1-p1 {
+                        color: #fdd6ba;
+                        font-family: Fraunces 9pt;
+                        font-size: 72px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 72px;
+                        /* 100% */
+                        margin-top: -10px;
+                    }
+
+                    .wert-menu-card1-p2 {
+                        width: 255px;
+                        color: #FEFCF7;
+                        font-family: Fraunces 9pt;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 36px;
+                        /* 112.5% */
+                        //   margin-top: -30px;
+                    }
+
+                    .wert-menu-card1-p3 {
+                        width: 285px;
+                        color: #FEFCF7;
+                        font-family: Barlow;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 26px;
+                        /* 162.5% */
+                    }
+                }
+
+                .wert-menu-card2 {
+                    max-width: 285px;
+                    height: 355px;
+                    background-color: transparent;
+
+                    .wert-menu-card2-p1 {
+                        color: #fdd6ba;
+                        font-family: Fraunces 9pt;
+                        font-size: 72px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 72px;
+                        /* 100% */
+                        margin-top: -10px;
+                    }
+
+                    .wert-menu-card2-p2 {
+                        //   width: 255px;
+                        color: #FEFCF7;
+                        font-family: Fraunces 9pt;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 36px;
+                        /* 112.5% */
+                        //   margin-top: -30px;
+                    }
+
+                    .wert-menu-card2-p3 {
+                        width: 285px;
+                        color: #FEFCF7;
+                        font-family: Barlow;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 26px;
+                        /* 162.5% */
+                    }
+                }
+
+                .wert-menu-card3 {
+                    max-width: 285px;
+                    height: 355px;
+                    background-color: transparent;
+
+                    .wert-menu-card3-p1 {
+                        color: #fdd6ba;
+                        font-family: Fraunces 9pt;
+                        font-size: 72px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 72px;
+                        /* 100% */
+                        margin-top: -10px;
+                    }
+
+                    .wert-menu-card3-p2 {
+                        //   width: 255px;
+                        color: #FEFCF7;
+                        font-family: Fraunces 9pt;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: 36px;
+                        /* 112.5% */
+                        //   margin-top: -30px;
+                    }
+
+                    .wert-menu-card3-p3 {
+                        width: 285px;
+                        color: #FEFCF7;
+                        font-family: Barlow;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 26px;
+                        /* 162.5% */
+                    }
+                }
+            }
+
+            .information-coffee {
+                display: flex;
+                justify-content: space-between;
+                max-width: 1110px;
+                height: 366px;
+                background-color: transparent;
+                margin: 0 auto;
+                margin-top: 168px;
+
+                .information-coffee-p-menu {
+                    max-width: 255px;
+                    height: 356px;
+                    background-color: transparent;
+
+                    .information-coffee-ps1 {
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 211px;
+                        height: 32px;
+                        background-color: transparent;
+                        padding-bottom: 24px;
+
+                        .information-coffee-p1 {
+                            color: #0E8784;
+                            font-family: Fraunces 9pt;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 32px;
+                            /* 133.333% */
+                        }
+
+                        .information-coffee-p2 {
+                            color: #333D4B;
+                            font-family: Fraunces 9pt;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 32px;
+                            /* 133.333% */
+                            
+                            &:hover {
+                                color: #2e3846;
+                                font-family: Fraunces 9pt;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 900;
+                                line-height: 32px;
+                                /* 133.333% */
+                            }
+                        }
+
+                    }
+
+                    .information-line-img1 {
+                        position: relative;
+                        top: 12px;
+                    }
+
+                    .information-coffee-ps2 {
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 211px;
+                        height: 32px;
+                        background-color: transparent;
+                        padding-bottom: 24px;
+                        margin-top: 35px;
+
+                        .information-coffee-p3 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 32px; /* 133.333% */
+                            /* 133.333% */
+                        }
+
+                        .information-coffee-p4 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 32px; /* 120% */
+                            /* 133.333% */
+                        }
+
+                    }
+
+                    .information-line-img1 {
+                        position: relative;
+                        top: 12px;
+                    }
+
+                    .information-coffee-ps3 {
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 200px;
+                        height: 32px;
+                        background-color: transparent;
+                        padding-bottom: 24px;
+                        margin-top: 35px;
+
+                        .information-coffee-p5 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 32px; /* 133.333% */
+                            /* 133.333% */
+                        }
+
+                        .information-coffee-p6 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 32px; /* 133.333% */
+                            /* 133.333% */
+                        }
+
+                    }
+
+                    .information-coffee-ps4 {
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 229px;
+                        height: 32px;
+                        background-color: transparent;
+                        padding-bottom: 24px;
+                        margin-top: 35px;
+
+                        .information-coffee-p7 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 32px;
+                            /* 133.333% */
+                        }
+
+                        .information-coffee-p8 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 32px;
+                            /* 133.333% */
+                        }
+
+                    }
+
+                    .information-coffee-ps5 {
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 211px;
+                        height: 32px;
+                        background-color: transparent;
+                        padding-bottom: 24px;
+                        margin-top: 35px;
+
+                        .information-coffee-p9 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 32px;
+                            /* 133.333% */
+                        }
+
+                        .information-coffee-p10 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 32px;
+                            /* 133.333% */
+                        }
+
+                    }
+                }
+
+                .information-coffee-left-menu {
+                    width: 100%;
+                    max-width: 730px;
+                    height: 354px;
+                    background-color: transparent;
+
+                    .information-coffee-left-min-p-menu {
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 730px;
+                        height: 48px;
+                        background-color: transparent;
+
+                        .information-coffee-left-min-h1 {
+                            max-width: 632px;
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 48px;
+                            /* 120% */
+                        }
+
+                        .subscription-open-icon-img {
+                            width: 18.191px;
+                            height: 11.924px;
+                            margin-top: 18px;
+                        }
+                    }
+
+                    .information-coffee-left-menu-forms {
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        max-width: 730px;
+                        height: 250px;
+                        background-color: transparent;
+                        margin-top: 56px;
+
+                        .information-coffee-left-menu-form1 {
+                            // display: flex;
+                            // justify-content: center;
+                            width: 100%;
+                            max-width: 228px;
+                            height: 250px;
+                            border-radius: 8px;
+                            background: #F4F1EB;
+                            &:hover{
+                                background: #0E8784;
+                            }
+
+                            .information-coffee-left-form1-p1-menu {
+                                position: relative;
+                                max-width: 172px;
+                                height: 134px;
+                                background-color: transparent;
+                                top: 32px;
+                                margin: 0 auto;
+
+                                .information-coffee-left-form1-menu-p2 {
+                                    color: #333D4B;
+                                    font-family: Fraunces 9pt;
+                                    font-size: 24px;
+                                    font-style: normal;
+                                    font-weight: 900;
+                                    line-height: 32px;
+                                    
+
+                                }
+
+                                .information-coffee-left-form1-menu-p3 {
+                                    width: 172px;
+                                    color: #333D4B;
+                                    font-family: Barlow;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 26px;
+                                    /* 162.5% */
+                                    margin-top: 24px;
+                                }
+                            }
+
+
+                        }
+
+                        .information-coffee-left-menu-form2 {
+                            // display: flex;
+                            // justify-content: center;
+                            width: 100%;
+                            max-width: 228px;
+                            height: 250px;
+                            border-radius: 8px;
+                            background: #F4F1EB;
+                            &:hover{
+                                background: #0E8784;
+                            }
+
+
+                            .information-coffee-left-form2-p1-menu {
+                                position: relative;
+                                max-width: 172px;
+                                height: 134px;
+                                background-color: transparent;
+                                top: 32px;
+                                margin: 0 auto;
+
+                                .information-coffee-left-form2-menu-p2 {
+                                    color: #333D4B;
+                                    font-family: Fraunces 9pt;
+                                    font-size: 24px;
+                                    font-style: normal;
+                                    font-weight: 900;
+                                    line-height: 32px;
+
+                                }
+
+                                .information-coffee-left-form2-menu-p3 {
+                                    width: 172px;
+                                    color: #333D4B;
+                                    font-family: Barlow;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 26px;
+                                    /* 162.5% */
+                                    margin-top: 24px;
+                                    display: flex;
+                                }
+                            }
+                        }
+
+                        .information-coffee-left-menu-form3 {
+                            // display: flex;
+                            // justify-content: center;
+                            width: 100%;
+                            max-width: 228px;
+                            height: 250px;
+                            border-radius: 8px;
+                            background: #F4F1EB;
+                            &:hover{
+                                background: #0E8784;
+                            }
+
+
+                            .information-coffee-left-form3-p1-menu {
+                                position: relative;
+                                max-width: 172px;
+                                height: 134px;
+                                background-color: transparent;
+                                top: 32px;
+                                margin: 0 auto;
+
+                                .information-coffee-left-form3-menu-p2 {
+                                    color: #333D4B;
+                                    font-family: Fraunces 9pt;
+                                    font-size: 24px;
+                                    font-style: normal;
+                                    font-weight: 900;
+                                    line-height: 32px;
+
+                                }
+
+                                .information-coffee-left-form3-menu-p3 {
+                                    width: 172px;
+                                    color: #333D4B;
+                                    font-family: Barlow;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 26px;
+                                    /* 162.5% */
+                                    margin-top: 24px;
+                                    display: flex;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .types-of-coffee {
+                display: flex;
+                justify-content: end;
+                width: 100%;
+                max-width: 1280px;
+                height: 844px;
+                background-color: transparent;
+                margin-top: 88px;
+
+                .types-of-coffee-form {
+                    width: 100%;
+                    max-width: 730px;
+                    height: 844px;
+                    background-color: transparent;
+
+                    .types-of-coffee-form-information1 {
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 730px;
+                        height: 48px;
+                        background-color: transparent;
+
+                        .types-of-coffee-form-information1-p1 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 48px;
+
+                        }
+
+                        .types-of-coffee-form-information1-icon {
+                            width: 18.191px;
+                            height: 11.924px;
+                            margin-top: 18px;
+                        }
+                    }
+
+                    .types-of-coffee-form-information2 {
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 730px;
+                        height: 48px;
+                        background-color: transparent;
+                        margin-top: 88px;
+
+                        .types-of-coffee-form-information2-p1 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 48px;
+
+                        }
+
+                        .types-of-coffee-form-information2-icon {
+                            width: 18.191px;
+                            height: 11.924px;
+                            margin-top: 18px;
+                        }
+                    }
+
+                    .types-of-coffee-form-information3 {
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 730px;
+                        height: 48px;
+                        background-color: transparent;
+                        margin-top: 88px;
+
+                        .types-of-coffee-form-information3-p1 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 48px;
+
+                        }
+
+                        .types-of-coffee-form-information3-icon {
+                            width: 18.191px;
+                            height: 11.924px;
+                            margin-top: 18px;
+                        }
+                    }
+
+                    .types-of-coffee-form-information4 {
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 730px;
+                        height: 48px;
+                        background-color: transparent;
+                        margin-top: 88px;
+
+                        .types-of-coffee-form-information4-p1 {
+                            color: #83888F;
+                            font-family: Fraunces 9pt;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 48px;
+
+                        }
+
+                        .types-of-coffee-form-information4-icon {
+                            width: 18.191px;
+                            height: 11.924px;
+                            margin-top: 18px;
+                        }
+                    }
+
+                    .types-of-coffee-form-filling {
+                        max-width: 730px;
+                        height: 208px;
+                        background-color: #2C343E;
+                        margin-top: 88px;
+                        border-radius: 8px;
+
+                        .types-of-coffee-form-filling-p-menu {
+                            position: relative;
+                            max-width: 602px;
+                            height: 114px;
+                            background-color: transparent;
+                            margin: 0 auto;
+                            top: 51px;
+
+                            .types-of-coffee-form-filling-menu-p1 {
+                                color: #FFF;
+                                font-family: Barlow;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 26px;
+                                /* 162.5% */
+                                text-transform: uppercase;
+                                opacity: 0.5037;
+
+                            }
+
+                            .types-of-coffee-form-filling-menu-p2 {
+                                color: #FFF;
+                                font-family: Fraunces 9pt;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 900;
+                                line-height: 40px;
+
+                                /* 166.667% */
+                                .types-of-coffee-form-filling-menu-span {
+                                    color: #0E8784;
+                                    font-family: Fraunces 9pt;
+                                    font-size: 24px;
+                                    font-style: normal;
+                                    font-weight: 900;
+                                    line-height: 40px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            footer {
+                width: 100%;
+                max-width: 1280px;
+                height: 208px;
+
+                margin-top: -20px;
+
+                display: flex;
+                align-items: center;
+
+                nav {
+                    width: 100%;
+                    max-width: 1280px;
+                    height: 120px;
+
+                    padding: 47px 85px 39px 85px;
+                    background: #2C343E;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .navigation-footer {
+                        margin-left: -120px;
+
+                        ul {
+                            display: flex;
+
+                            li {
+                                display: flex;
+                                margin-right: 33px;
+
+                                a {
+                                    color: #83888F;
+                                    text-decoration: none;
+                                    font-weight: 700;
+                                    font-size: 12px;
+                                    line-height: 15px;
+                                    letter-spacing: 0.92px;
+
+                                    font-family: 'Barlow', sans-serif;
+                                }
+
+                                a:hover {
+                                    transition: 0.1s;
+                                    color: #FEFCF7;
+                                }
+                            }
+
+                            li:nth-child(2) {
+                                margin-right: 32px;
+                            }
+
+                            li:nth-child(3) {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+
+                    .icons {
+                        .icon-style {
+                            color: #FEFCF7;
+                            font-size: 19.5px;
+
+                            margin-left: 19px;
+
+                            &:hover {
+                                transition: 0.5s;
+                                color: #FDD6BA;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
