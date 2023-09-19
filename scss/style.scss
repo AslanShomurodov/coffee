@@ -57,6 +57,18 @@ body {
                 letter-spacing: 0.923px;
                 text-transform: uppercase;
                 margin-left: -20px;
+
+                &:hover {
+                  color: #333D4B;
+                  font-family: Barlow;
+                  font-size: 12px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 15px;
+                  /* 125% */
+                  letter-spacing: 0.923px;
+                  text-transform: uppercase;
+                }
               }
             }
           }
@@ -68,7 +80,7 @@ body {
         height: 450px;
         background-color: rgb(75, 116, 116);
         background-image: url(../img/image-hero-coffeepress.jpg);
-        background-repeat:no-repeat ;
+        background-repeat: no-repeat;
         // margin-top: 300px;
 
         .header-img-menu-p1 {
@@ -113,7 +125,9 @@ body {
           /* 138.889% */
           margin-left: 85px;
           margin-top: 20px;
-          &:hover{
+          border: 0;
+
+          &:hover {
             background: #66D2CF;
           }
         }
@@ -673,7 +687,8 @@ body {
         /* 138.889% */
         border: 0;
         margin-left: 116px;
-        &:hover{
+
+        &:hover {
           background: #66D2CF;
         }
       }
@@ -692,8 +707,8 @@ body {
           width: 100%;
           max-width: 1280px;
           height: 120px;
-
-          padding: 47px 85px 39px 85px;
+           
+          padding: 0px 85px 0px 85px;
           background: #2C343E;
 
           display: flex;
@@ -721,8 +736,17 @@ body {
                   font-size: 12px;
                   line-height: 15px;
                   letter-spacing: 0.92px;
-
-                  font-family: 'Barlow', sans-serif;
+                  &:hover {
+                    color: #FEFCF7;
+                    font-family: Barlow;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 15px;
+                    /* 125% */
+                    letter-spacing: 0.923px;
+                    text-transform: uppercase;
+                }
                 }
 
                 a:hover {

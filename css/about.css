@@ -63,6 +63,17 @@ body .contener-about .wrapper-about .header-about .header-a-menu-about ul li a {
   text-transform: uppercase;
   margin-left: -20px;
 }
+body .contener-about .wrapper-about .header-about .header-a-menu-about ul li a:hover {
+  color: #333D4B;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
 body .contener-about .wrapper-about .header-img-menu {
   max-width: 1280px;
   height: 450px;
@@ -333,7 +344,17 @@ body .contener-about .wrapper-about footer nav .footer-big-menu .footer-a-menu u
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.92px;
-  font-family: "Barlow", sans-serif;
+}
+body .contener-about .wrapper-about footer nav .footer-big-menu .footer-a-menu ul li a:hover {
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
 }
 body .contener-about .wrapper-about footer nav .footer-big-menu .footer-a-menu ul li .icons {
   max-width: 120px;

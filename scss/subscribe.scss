@@ -63,6 +63,18 @@ body {
                                 letter-spacing: 0.923px;
                                 text-transform: uppercase;
                                 margin-left: -20px;
+
+                                &:hover {
+                                    color: #333D4B;
+                                    font-family: Barlow;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 15px;
+                                    /* 125% */
+                                    letter-spacing: 0.923px;
+                                    text-transform: uppercase;
+                                }
                             }
                         }
                     }
@@ -330,7 +342,7 @@ body {
                             font-weight: 900;
                             line-height: 32px;
                             /* 133.333% */
-                            
+
                             &:hover {
                                 color: #2e3846;
                                 font-family: Fraunces 9pt;
@@ -364,7 +376,8 @@ body {
                             font-size: 24px;
                             font-style: normal;
                             font-weight: 900;
-                            line-height: 32px; /* 133.333% */
+                            line-height: 32px;
+                            /* 133.333% */
                             /* 133.333% */
                         }
 
@@ -374,7 +387,8 @@ body {
                             font-size: 24px;
                             font-style: normal;
                             font-weight: 400;
-                            line-height: 32px; /* 120% */
+                            line-height: 32px;
+                            /* 120% */
                             /* 133.333% */
                         }
 
@@ -400,7 +414,8 @@ body {
                             font-size: 24px;
                             font-style: normal;
                             font-weight: 900;
-                            line-height: 32px; /* 133.333% */
+                            line-height: 32px;
+                            /* 133.333% */
                             /* 133.333% */
                         }
 
@@ -410,7 +425,8 @@ body {
                             font-size: 24px;
                             font-style: normal;
                             font-weight: 900;
-                            line-height: 32px; /* 133.333% */
+                            line-height: 32px;
+                            /* 133.333% */
                             /* 133.333% */
                         }
 
@@ -527,7 +543,8 @@ body {
                             height: 250px;
                             border-radius: 8px;
                             background: #F4F1EB;
-                            &:hover{
+
+                            &:hover {
                                 background: #0E8784;
                             }
 
@@ -546,7 +563,7 @@ body {
                                     font-style: normal;
                                     font-weight: 900;
                                     line-height: 32px;
-                                    
+
 
                                 }
 
@@ -574,7 +591,8 @@ body {
                             height: 250px;
                             border-radius: 8px;
                             background: #F4F1EB;
-                            &:hover{
+
+                            &:hover {
                                 background: #0E8784;
                             }
 
@@ -620,7 +638,8 @@ body {
                             height: 250px;
                             border-radius: 8px;
                             background: #F4F1EB;
-                            &:hover{
+
+                            &:hover {
                                 background: #0E8784;
                             }
 
@@ -866,7 +885,18 @@ body {
                                     line-height: 15px;
                                     letter-spacing: 0.92px;
 
-                                    font-family: 'Barlow', sans-serif;
+                                    &:hover {
+                                        color: #FEFCF7;
+                                        font-family: Barlow;
+                                        font-size: 12px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 15px;
+                                        /* 125% */
+                                        letter-spacing: 0.923px;
+                                        text-transform: uppercase;
+                                    }
+
                                 }
 
                                 a:hover {
